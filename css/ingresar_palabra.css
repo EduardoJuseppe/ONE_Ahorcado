@@ -1,0 +1,63 @@
+.cuerpo{
+    width: 90%;
+    height: calc(95vh - 75px);
+    margin: 0 auto;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logoAlura{
+    width: 41px;
+}
+.divContenido{
+    width: calc(95% - 2px);
+    height: 50vh;
+}
+.AreaMensaje{
+    width: calc(100% - 2px);
+    height: 100%;
+    background-color: #EFF1FA;
+    border: none;
+    resize: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #356EA9;
+    padding: 0rem;
+}
+.AreaMensaje:focus{
+    outline: 0 none;
+}
+.AreaMensaje::placeholder{
+    color: #356EA9;
+}
+.divBotones{
+    width: calc(95% - 2px);
+}
+.acomodarBotones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+}
+.btn{
+    border-radius: 25px;
+    width: 48%;
+    padding: 1.35rem 0rem;
+    border: none;
+    cursor: pointer;
+}
+.guardar{
+    background-color: #072B61;
+    color: white;
+    border-color: #0A3871;
+    font-weight: bold;
+}
+.cancelar{
+    border: 1px solid #0A3871;
+    background-color: transparent;
+    color: #0A3871;
+    font-weight: bold;
+}
+.colorRojo{
+    color: red;
+}

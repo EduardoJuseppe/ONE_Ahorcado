@@ -1,0 +1,92 @@
+@media screen and (min-width: 376px) and (max-width: 768px ){
+    .cuerpo{
+        position: relative;
+        justify-content: space-between;
+        padding-top: 2rem;
+    }
+    .divCanvas{
+        width: 80%;
+        height: 75%;
+        margin: 0 auto;
+    }
+    .acomodarBotones{
+        width: 90%;
+    }
+    .spanAlerta{
+        width: 70%;
+        margin: 0 auto;
+        color: #356EA9;
+        font-size: 1.1rem;
+    }
+    .divLetras{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 15%;
+        opacity: 0.9;
+    }
+    .btnLetra{
+        width: 7.142857142857143%;
+        height: 40%;
+        background-color: transparent;
+        color: white;
+        background: #343A40;
+        border: 1px solid #E9ECF8;
+        border-radius: 25%;
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px ){
+    .cuerpo{
+        position: relative;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    .btn{
+        width: 100%;
+        padding: 0.85rem 0rem;
+        /* margin-top: 1.5rem; */
+    }
+    .acomodarBotones{
+        width: 80%;
+        flex-direction: column;
+    }
+    .acomodarBotones button:nth-child(2){
+        margin-top: 1rem;
+    }
+    .divCanvas{
+        width: 90%;
+        height: 60%;
+        margin: 0 auto;
+    }
+    .spanAlerta{
+        width: 70%;
+        margin: 0 auto;
+        color: #356EA9;
+        font-size: 0.95rem;
+    }
+    .divLetras{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 15%;
+        opacity: 0.9;
+    }
+    .btnLetra{
+        width: 7.142857142857143%;
+        height: 40%;
+        background-color: transparent;
+        color: white;
+        background: #343A40;
+        border: 1px solid #E9ECF8;
+        border-radius: 25%;
+        font-size: 0.65rem;
+    }
+}

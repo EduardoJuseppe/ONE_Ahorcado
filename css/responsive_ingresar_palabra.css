@@ -1,0 +1,43 @@
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .cuerpo{
+        justify-content: initial;
+    }
+    .divContenido{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    .divBotones{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .AreaMensaje{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 375px) {
+    .cuerpo{
+        justify-content: space-around;
+        padding-left: 1rem;
+    }
+    .divContenido{
+        width: calc(95% - 2px);
+        height: 35vh;
+    }
+    .acomodarBotones{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+    }
+    .acomodarBotones .btn:nth-child(1){
+        margin-bottom: 1rem;
+    }
+    .AreaMensaje{
+        font-size: 0.8rem;
+    }
+}
+
