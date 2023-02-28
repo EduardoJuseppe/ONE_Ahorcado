@@ -5,7 +5,8 @@ let contador = 1;
 const crearLetrasUsadas = (keyValue,dimencionesCanvas,color) =>{
     let px;
     let ejeYLetrasUsadas = Math.trunc((dimencionesCanvas[1] - dimencionesCanvas[1]*0.0375));
-    let pxLetra = Math.trunc(dimencionesCanvas[0]/17 - (dimencionesCanvas[0]/17)*0.10);
+    let pxLetra = Math.trunc(dimencionesCanvas[0]/20 - (dimencionesCanvas[0]/17)*0.10);
+    console.log("tamano letras " + pxLetra);
     px = `${pxLetra}`+"px";
     funcionesCanvas.letraUsada(keyValue,px,pxLetra*contador,ejeYLetrasUsadas,color);
     contador++;
@@ -19,7 +20,7 @@ const  crearGanarPerder = (texto,dimencionesCanvas,color,valoresCanvas) =>{
     const divLetras = document.querySelector(".divLetras");
     divLetras.style.display = "none";
     let ejeX = Math.trunc(valoresCanvas.tamanhoEspacios/10);
-    let ejeY = Math.trunc(valoresCanvas.tamanhoEspacios);
+    let ejeY = Math.trunc(valoresCanvas.tamanhoEspacios * 0.5);
     let px = Math.trunc(valoresCanvas.tamanhoEspacios + valoresCanvas.tamanhoEspacios / 5)
     funcionesCanvas.crearGanarPerder(ejeX,ejeY,texto,color,px);
 };

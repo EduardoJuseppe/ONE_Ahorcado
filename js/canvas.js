@@ -18,8 +18,8 @@ const letraUsada = (letra,px,ubicacion,ejeYLetrasUsadas,color) =>{
 };
 
 const letraEncontrada = (keyValue,px,ubicacionEspacios,ejeY) => {
-    px = px - px/3.5;
-    let centrar = px/7;
+    px = px - px/2.5;
+    let centrar = px/2.5;
     px = px+"px";
     pincel.beginPath() 
     pincel.fillStyle="#495057"; 
